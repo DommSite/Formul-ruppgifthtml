@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="sak">Skriv något</label><br>
+        <input type="text"><br>
+        <label for="sak2">Skriv något igen</label><br>
+        <input type="text"><br>
+    </form>
+    <form>
+        <label for="flera val"></label>
+        <p>Välj ditt favorit språk</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+    </form>
+    <form>
+        <label>Klicka in vilka fordon du har</label><br>
+        <input type="checkbox" id="fordon1" name="fordon1" value="Cykel">
+        <label for="vehicle1">Jag har en cykel</label><br>
+        <input type="checkbox" id="fordon2" name="fordon2" value="Bil">
+        <label for="vehicle2">Jag har en bil</label><br>
+        <input type="checkbox" id="fordon3" name="fordon3" value="Buss">
+        <label for="vehicle1">Jag har en buss</label><br>
+    </form>
+    <form>
+        <label for="bästbil">Välj en bil:</label>
+        <select id="bästbil" name="bästbil">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select> 
+        <br>
+    </form>
+    <form method="POST" action="tack.html">
+        <input type="submit" value="lämna in">
+    </form>
+</body>
+</html>
